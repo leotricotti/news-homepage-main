@@ -1,0 +1,81 @@
+/*
+=====================
+Font
+=====================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+/*
+=====================
+Variables
+=====================
+*/
+:root {
+  --clr-primary-orange: hsl(35, 77%, 62%);
+  --clr-primary-red: hsl(5, 85%, 63%);
+  --clr-off-white: hsl(36, 100%, 99%);
+  --clr-grayish: hsl(233, 8%, 79%);
+  --clr-dark-grayish: hsl(236, 13%, 42%);
+  --clr-very-dark: hsl(240, 100%, 5%);
+  --ff-main: 'Inter', sans-serif;
+  --fs-paragraph: 15px;
+  --fw-regular: 400;
+  --fw-bold: 700;
+  --fw-extra-bold: 800;
+}
+
+/*
+=======================
+Resets
+=======================
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  max-width: 100%;
+}
+
+img,
+svg,
+video,
+canvas {
+  height: auto;
+}
+
+img {
+  border-style: none;
+}
+
+/*
+================
+Utility Classes
+================
+*/
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+/* Header */
+
